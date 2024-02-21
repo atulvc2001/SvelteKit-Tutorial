@@ -7,7 +7,7 @@ export const load = async (loadEvent) => {
     const notification = 'End of season sale!'
     const parentData = await parent()
     const {username} = parentData
-    console.log("hello "+username) 
+    console.log("hello ") 
     // const title = "List of available Products (this is from page.js)"
     // const response = await fetch("http://localhost:4000/products")
     // const products = response.json()

@@ -4,10 +4,10 @@ export const load = async (serverLoadEvent) => {
     // const parentData = parent()
     // const username = parentData
     // console.log(parentData)
-    const title = "List of available Products (this is from page.js)"
+    const title = "List of available Products ( this is from page.js )"
     const response = await fetch("http://localhost:4000/products")
     const products = response.json()
-    // console.log(products)
+    console.log("this will not work"+products)
     return {
         title,
         products
