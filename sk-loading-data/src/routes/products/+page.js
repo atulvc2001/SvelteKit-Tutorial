@@ -1,5 +1,5 @@
 import Product from './product.svelte'
-// we are using universal load function becuase the server load function cannot return a constructor or the below component in this case.
+// we are using universal load function because the server load function cannot return a constructor or the below component in this case.
 
 export const load = async (loadEvent) => {
     console.log('load function called in page.js')
