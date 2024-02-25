@@ -8,3 +8,5 @@
 
 <p>{product.description}</p>
 <hr />
+
+<!-- this is the product.svelte page -->
